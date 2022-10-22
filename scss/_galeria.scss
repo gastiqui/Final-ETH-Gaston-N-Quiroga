@@ -3,7 +3,7 @@ img {
 }
 
 .galeria {
-  background-color: $colorPrincipal;
+  background-color: map-get($paleta-colores, "colorPrincipal");
   padding: 80px 0;
 }
 

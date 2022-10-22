@@ -6,19 +6,19 @@
 ul {
 	list-style: none;
 }
+
 .footer {
-	background-color: $colorFooter;
+	background-color: map-get($paleta-colores, "colorFooter");
     padding: 50px 0;
 }
 
 .footer-col {
    width: 25%;
-   padding: 0 15px;
 }
 
 .footer-col h4 {
 	font-size: 18px;
-	color: $letraFooter;
+	color: map-get($paleta-colores, "letraFooter");
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -30,7 +30,7 @@ ul {
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: $lineaFooter;
+	background-color: map-get($paleta-colores, "lineaFooter");
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -43,7 +43,7 @@ ul {
 .footer-col ul li a {
 	font-size: 16px;
 	text-transform: capitalize;
-	color: $letraFooter;
+	color: map-get($paleta-colores, "letraFooter");
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
@@ -52,7 +52,7 @@ ul {
 }
 
 .footer-col ul li a:hover {
-	color: $letraFooter;
+	color: map-get($paleta-colores, "letraFooter");
 	padding-left: 8px;
 }
 

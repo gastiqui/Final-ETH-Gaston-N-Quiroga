@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 6vh;
+}
+
 body::before {
   display: block;
   content: "";
@@ -32,7 +36,6 @@ ul {
 
 .footer-col {
   width: 25%;
-  padding: 0 15px;
 }
 
 .footer-col h4 {
@@ -93,15 +96,6 @@ ul {
   background-color: #ffffff;
 }
 
-.carousel-inner {
-  max-height: 50rem;
-}
-
-.slider {
-  -o-object-position: cover !important;
-  object-position: cover !important;
-}
-
 img {
   max-width: 100%;
 }
@@ -124,18 +118,14 @@ img {
     width: 50%;
   }
 }
-
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
   }
 }
-
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

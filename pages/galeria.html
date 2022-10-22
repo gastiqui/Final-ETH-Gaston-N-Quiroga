@@ -20,12 +20,12 @@
 
   <!-- INICIO HEADER -->
 
-  <header class="container-fluid ">
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-0 fixed-top">
+  <header class="container-fluid">
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark pt-0 fixed-top">
       <div class="container">
-        <img id="logo" class="btn-close-white mx-4" src="../assets/logo.webp" alt="">
         <a href="#" class="navbar-brand">
-          Ethereum
+          <img id="logo" class="btn-close-white mx-4" src="../assets/logo.webp" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
           <span class="navbar-toggler-icon"></span>
@@ -33,24 +33,36 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a href="../index.html" class="nav-link">Inicio</a>
+              <a href="../index.html" class="nav-link">
+                INICIO
+              </a>
             </li>
             <li class="nav-item">
-              <a href="../pages/empresa.html" class="nav-link">Sobre Nosotros</a>
+              <a href="../pages/empresa.html" class="nav-link">
+                SOBRE NOSOTROS
+              </a>
             </li>
             <li class="nav-item">
-              <a href="../pages/productos.html" class="nav-link">Productos</a>
+              <a href="../pages/informacion.html" class="nav-link">
+                INFORMACIÓN
+              </a>
             </li>
             <li class="nav-item">
-              <a href="../pages/galeria.html" class="nav-link">Galeria</a>
+              <a href="../pages/galeria.html" class="nav-link">
+                GALERÍA
+              </a>
             </li>
             <li class="nav-item">
-              <a href="../pages/contacto.html" class="nav-link">Contacto</a>
+              <a href="../pages/contacto.html" class="nav-link">
+                CONTACTO
+              </a>
             </li>
           </ul>
         </div>
       </div>
+
     </nav>
+
   </header>
 
   <!-- FIN HEADER -->
@@ -59,24 +71,11 @@
 
   <main>
 
-    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
-      <div class="container-fluid">
-        <div>
-          <div>
-            <h4 class="text-center m-0">
-              Fundado en 2013
-            </h4>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="bg-success p-1">
-      <div class=" container">
-        <div class="d-md-flex">
-        </div>
-      </div>
-    </section>
+    <div class="container">
+      <h1 class="text-center text-light mt-5">
+        Galería
+      </h1>
+    </div>
 
     <section class="galeria">
       <div class="container">
@@ -100,6 +99,29 @@
           </div>
           <div class="col">
             <img src="../assets/images/productos/images.jpeg" class=" galeria-item" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-success p-1">
+      <div class=" container">
+        <div class="d-md-flex">
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-gradient text-light p-5 ">
+      <div class=" container-fluid">
+        <div class="d-md-flex justify-content-around align-items-center">
+          <h4 class="mb-3 mb-md-0">
+            Suscribite para conocer nuestras novedades
+          </h4>
+          <div class="input-group news-input">
+            <input type="text" class="form-control" placeholder="Email" />
+            <button class="btn btn-dark btn-lg" type="button">
+              Enviar
+            </button>
           </div>
         </div>
       </div>
