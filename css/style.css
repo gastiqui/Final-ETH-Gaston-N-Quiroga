@@ -8,6 +8,10 @@ header {
   height: 6vh;
 }
 
+#navmenu ul a {
+  font-size: 1.25rem;
+}
+
 body::before {
   display: block;
   content: "";
